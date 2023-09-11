@@ -1,0 +1,16 @@
+codecrafters-auth-service/
+│
+├── main.go
+├── api/
+│   ├── routes.go
+│   ├── middleware/
+│   └── handlers/
+├── models/
+├── repositories/
+├── config/
+├── services/
+│   ├── myservice/
+│   │   ├── myservice.go
+│   │   └── myservice_test.go
+├── Dockerfile
+└── README.md

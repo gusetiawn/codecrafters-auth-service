@@ -1,0 +1,21 @@
+APP_PORT: 8080
+CORS_ALLOWED:
+  - "*"
+
+HEADERS_ALLOWED:
+  - "X-API-KEY"
+  - "X-TOKEN"
+  - "AUTHORIZATION"
+  - "ACCESS-CONTROL-ALLOW-ORIGIN"
+  - "ACCESS-CONTROL-ALLOW-METHOD"
+  - "ACCESS-CONTROL-MAX-AGE"
+  - "Access-Control-Request-Headers"
+  - "Access-Control-Request-METHOD"
+  - "Connection"
+  - "x-requested-with"
+
+DB_HOST: 172.17.0.1
+DB_PORT: 5432
+DB_NAME: user-crafters
+DB_USER: postgres
+DB_PASSWORD: postgres
